@@ -5,6 +5,7 @@
       <map>
         <entry key="AvaloniaStoreProject/App.axaml" value="AvaloniaStoreProject/AvaloniaStoreProject.csproj" />
         <entry key="AvaloniaStoreProject/Icons.axaml" value="AvaloniaStoreProject/AvaloniaStoreProject.csproj" />
+        <entry key="AvaloniaStoreProject/Views/AvaloniaStoreView.axaml" value="AvaloniaStoreProject/AvaloniaStoreProject.csproj" />
         <entry key="AvaloniaStoreProject/Views/AvaloniaStoreWindow.axaml" value="AvaloniaStoreProject/AvaloniaStoreProject.csproj" />
         <entry key="AvaloniaStoreProject/Views/MainWindow.axaml" value="AvaloniaStoreProject/AvaloniaStoreProject.csproj" />
       </map>
