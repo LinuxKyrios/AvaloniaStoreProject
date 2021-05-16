@@ -25,8 +25,10 @@
                     MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-        <Panel Margin="40"> <!--To move button a little bit from the edge -->
-            <Button Content="Buy Tech" Command="{Binding BuyTechCommand}" />
-        </Panel>
+         <!--To move button a little bit from the edge -->
+            <Button Margin="40" HorizontalAlignment="Right" VerticalAlignment="Top" Command="{Binding BuyTechCommand}">
+                <PathIcon Data="{StaticResource app_store_regular}" />
+            </Button>
+         
     </Panel>
 </Window>
