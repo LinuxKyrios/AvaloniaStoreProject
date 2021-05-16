@@ -8,7 +8,8 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaStoreProject"
         TransparencyLevelHint="AcrylicBlur"
-        Background="Transparent"><!--Added option for blur background-->
+        Background="Transparent"
+        ExtendClientAreaToDecorationsHint="True"><!--Added option for blur background and top panel-->
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
@@ -24,6 +25,6 @@
                     MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
+        <Button Content="Buy Tech" Command="{Binding BuyTechCommand}" />
     </Panel>
-
 </Window>
