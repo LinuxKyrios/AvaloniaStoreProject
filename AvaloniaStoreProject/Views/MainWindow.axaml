@@ -25,6 +25,8 @@
                     MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-        <Button Content="Buy Tech" Command="{Binding BuyTechCommand}" />
+        <Panel Margin="40"> <!--To move button a little bit from the edge -->
+            <Button Content="Buy Tech" Command="{Binding BuyTechCommand}" />
+        </Panel>
     </Panel>
 </Window>
