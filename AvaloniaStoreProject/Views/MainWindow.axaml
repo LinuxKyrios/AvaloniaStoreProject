@@ -7,9 +7,11 @@
         x:Class="AvaloniaStoreProject.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaStoreProject"
+        WindowStartupLocation="CenterScreen"
         TransparencyLevelHint="AcrylicBlur"
         Background="Transparent"
-        ExtendClientAreaToDecorationsHint="True"><!--Added option for blur background and top panel-->
+        ExtendClientAreaToDecorationsHint="True"><!--Added option for blur background and top panel 
+also modified startup location to Center-->
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>

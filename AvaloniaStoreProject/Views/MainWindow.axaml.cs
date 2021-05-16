@@ -16,6 +16,7 @@ namespace AvaloniaStoreProject.Views
 #if DEBUG
             this.AttachDevTools();
 #endif
+            this.WhenActivated(d => d(ViewModel.ShowDialog.RegisterHandler(DoShowDialogAsync)));
         }
 
         private void InitializeComponent()
@@ -23,6 +24,9 @@ namespace AvaloniaStoreProject.Views
             AvaloniaXamlLoader.Load(this);
         }
 
+        /* This method creates the AvaloniaStoreWindow,
+         * it sets its DataContext to interaction.Input,
+         * which is the instance of the ViewModel */
         private async Task DoShowDialogAsync(InteractionContext<AvaloniaStoreViewModel, StackViewModel?> interaction)
         {
             var dialog = new AvaloniaStoreWindow();
