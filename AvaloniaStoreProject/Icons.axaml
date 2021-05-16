@@ -1,0 +1,15 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- Add Styles Here -->
+    <Style>
+        <Style.Resources>
+            <StreamGeometry x:Key="arrow_right_regular">M15.2685,4.20949 C14.97,3.92233 14.4952,3.93153 14.208,4.23005 C13.9209,4.52857 13.9301,5.00335 14.2286,5.29051 L22.5028,13.25 L3.75,13.25 C3.33579,13.25 3,13.5858 3,13.9999982 C3,14.4142 3.33579,14.75 3.75,14.75 L22.5018,14.75 L14.2286,22.7085 C13.9301,22.9957 13.9209,23.4705 14.208,23.769 C14.4952,24.0675 14.97,24.0767 15.2685,23.7896 L24.6965,14.7202 C25.1054,14.3268 25.1054,13.6723 24.6965,13.2788 L15.2685,4.20949 Z</StreamGeometry>
+        </Style.Resources>
+    </Style>
+</Styles>
